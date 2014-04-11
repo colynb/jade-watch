@@ -15,6 +15,8 @@ Then clone this repo:
 
 Now download dependencies:
 
+```$ cd jade-watch```
+
 ```$ npm install```
 
 ### Gulp Watch
