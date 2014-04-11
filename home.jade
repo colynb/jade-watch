@@ -1,0 +1,12 @@
+---
+title: Todos
+lang: en
+todos: [{title: create repo}, {title: share repo}]
+---
+extends ./layouts/default.jade
+block content
+	.container
+		h1= title
+		ul
+			each item in todos
+				li= item.title
